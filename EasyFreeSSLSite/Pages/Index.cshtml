@@ -21,17 +21,7 @@
 </script>
 
 <div>
-    <h1 class="display-6">Welcome</h1>
-    <p>This site helps you to validate your FREE SSL certificate quickly. Below are steps or you can watch a video here:</p>
-    <ol>
-        <li>Create your own domain name. If you do not have one, try to create a FREE subdomain like this <a href="https://freessl.mooo.com">freessl.mooo.com</a>, using <a href="https://freedns.afraid.org" target="_blank">freedns.afraid.org</a>.</li>
-        <li>Put A address to this IP 35.185.136.129, so you're able to see the maintenance page under your domain.</li>
-        <li>Use a client to generate your free SSL certificate, such as Crypt::Le</li>
-        <li>At verification step, use FTP to upload your validation file to ftp://freessl.mooo.com with username=ftpfreessl and password=AbizvnDotCom@123</li>
-        <li>Then continue to complete your own SSL.</li>
-        <li>Congrats! It's all done, you now have a valid SSL cert of your domain.</li>
-        <li>You can configure your domain with the certificate, your side is ready.</li>
-    </ol>
+    @Html.Raw(ViewData["IndexContent"])
 </div>
 
 <div class="giscus"></div>
