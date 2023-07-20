@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/PocEasyFreeSSLSite/FileContentIndex
+/EasyFreeSSLSite/bin/Debug/net6.0
+/EasyFreeSSLSite/bin/Release/net6.0
+/EasyFreeSSLSite/obj
