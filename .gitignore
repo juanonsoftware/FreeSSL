@@ -10,3 +10,8 @@
 /.vs/PocEasyFreeSSLSite/config
 /.vs/PocEasyFreeSSLSite/v17
 /.vs/ProjectEvaluation
+/Packages
+/Published
+/OctopusUploadPackage.ps1
+/OctopusCreateNewRelease.ps1
+/BuildAndCreatePackage.ps1
